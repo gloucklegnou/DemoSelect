@@ -36,7 +36,7 @@ public class DBUtilDAO {
      * @throws SQLException si pb avec la BD
      */
     public static String resultSet2OptionList(ResultSet rs, String topOption) throws SQLException {
-        // on utilise unStringBuilder plus efficace que des objets String pour
+        // on utilise un StringBuilder plus efficace que des objets String pour
         // la concaténation de chaînes de caractères
         StringBuilder sb = new StringBuilder();
         sb.append("<option value=\"\">--Selectionnez ").append(topOption).append("</option>");

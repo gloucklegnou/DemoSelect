@@ -28,8 +28,9 @@ public class PaysDAO {
      * Retourne le code HTML correspondant à une liste d'options pour les
      * différents pays contenus dans la table PAYS. Chaque entrée de la table
      * est retournée sous la forme d'une option avec comme valeur l'ID du pays
-     * et comme contenu le nom du pays. Par exemple pour la France: &lt;option
-     * value="FR"&gt;France&lt;/option&gt;
+     * et comme contenu le nom du pays. Par exemple pour la France: 
+     * 
+     * &lt;option value="FR"&gt;France&lt;/option&gt;
      *
      * @param ds la source de données pour l'accès à la Base de Données
      * @return la liste de options
